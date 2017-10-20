@@ -1,0 +1,25 @@
+{
+    "name": "elm-activitystreams",
+    "version": "1.0.0",
+    "main": "dist/index.js",
+    "scripts": {
+        "dev": "webpack --watch",
+        "build": "webpack"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "bulma": "^0.6.0",
+        "clean-webpack-plugin": "^0.1.17",
+        "copy-webpack-plugin": "^4.2.0",
+        "css-loader": "^0.28.7",
+        "elm-hot-loader": "^0.5.4",
+        "elm-webpack-loader": "^4.3.1",
+        "extract-text-webpack-plugin": "^3.0.1",
+        "file-loader": "^1.1.5",
+        "node-sass": "^4.5.3",
+        "sass-loader": "^6.0.6",
+        "style-loader": "^0.19.0",
+        "webpack": "^3.8.1",
+        "webpack-dev-server": "^2.9.3"
+    }
+}
